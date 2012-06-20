@@ -10,12 +10,14 @@ for i in range(width):
     real = secret/10
     remainder = secret%10
     answer= answer + remainder *(10**check)
-    secondanswer= ((answer + remainder *(10**check) +7)%10)
+    hardcrypt = (remainder + 7)%10
+    secondanswer = secondanswer + hardcrypt * (10**check) 
     check-=1
     secret = real
 print 'encrypted format is : '    
 print answer
 print ' \n -------extra credit question 2--------\n\n'
+print 'answer for this question is as: '
 print secondanswer
     
 
