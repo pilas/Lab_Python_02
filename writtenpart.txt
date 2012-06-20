@@ -1,0 +1,30 @@
+Lab 02
+solutions to written part
+
+q1.
+   a. x = 2 and y = 5?   ------- x is 2
+   b. x = 3 and y = 1?   -------- print nothing
+   c. x = 1 and y = 1?   -------- x is 1
+   d. x = 4 and y = 3?   --------  z is 7
+
+q2.
+   z = x+3    
+   if z==1:
+     y=0
+   elif z==2:
+     y=10
+   elif z==4: 
+     y+=1
+   else:
+     y=1
+
+a. Y will be = 1 after the switch statement.
+b. Y will be = 1
+
+q3.
+    the code outputs 2 4 6 8 10. multiples of two.
+    and it loops around 9 times until i=10.
+
+q4. there will be no output since i=0 will always be less than 10.
+
+
